@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Lyndon Tuala',
   tagline: 'Personal Blog Website',
   favicon: 'img/favicon.ico',
 
@@ -67,10 +67,10 @@ const config = {
       image: 'img/social-media-card.jpg',
       navbar: {
         // title: 'My Site',
-        // logo: {
-        //   alt: 'My Site Logo',
-        //   src: 'img/logo.svg',
-        // },
+        logo: {
+          alt: 'My Site Logo',
+          src: 'img/favicon.ico',
+        },
         items: [
           // {
           //   type: 'doc',
@@ -120,7 +120,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/',
               },
               {
                 label: 'GitHub',
