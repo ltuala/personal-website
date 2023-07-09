@@ -5,18 +5,37 @@ authors: [ltuala]
 tags: [timefold, quarkus]
 ---
 
-Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).
+Current Timefold examples already runs on Quarkus 3 already. Let’s see how we can successfully setup a Timefold use case example and use it as a baseline for another Timefold project.
 
 <!--truncate-->
-
-:::tip
-
-Use the power of React to create interactive blog posts.
-
-```js
-<button onClick={() => alert('button clicked!')}>Click me!</button>
-```
-
-<button onClick={() => alert('button clicked!')}>Click me!</button>
-
+:::info
+Timefold [PAS](https://timefold.ai/docs/timefold-solver/latest/use-cases-and-examples/use-cases-and-examples.html#bedAllocation) example was not built with Quarkus, 
+as a result I just use the [Maintenance scheduling](https://github.com/TimefoldAI/timefold-quickstarts#maintenance-scheduling) use case as a baseline.
 :::
+
+## Setup a new Quarkus Project
+:::caution
+**Quarkus 3** requires a Java version **17+**. See [JDK on Windows](https://docs.oracle.com/en/java/javase/20/install/installation-jdk-microsoft-windows-platforms.html), for official documentation on how to install JDK.
+:::
+### Go to [code.quarkus.io](https://code.quarkus.io/)
+Fill in the `Group`, `Artifact` and `Build Tool`
+![quarkus-io](quarkus-io.png)
+### Click Generate your application
+No other library or package is needed on our new project.
+![Generate you application](generate-your-application.png)
+### Select download the zip.
+![Download zip](download-zip.png)
+### Extract and open via code editor.
+The folder structure and content should look like this.
+![Folder structure](folder-structure.png)
+## Setup Timefold Quickstarts
+### Clone or download timefold-quickstarts repository
+Click [here](https://github.com/TimefoldAI/timefold-quickstarts) to clone or download the repository.
+![Timefold quickstarts](timefold-quickstarts.png)
+### Run the Maintence scheduling use case
+![Maintenance scheduling](maintenance-scheduling.png)
+### Merge the Maintenance scheduling use case to the new Quarkus project.
+Make sure to refactor the package name on every code files. Just overwrite the `pom.xml` with the example packages. <br />
+On `line 8` onwards, this is where I overwrite all the packages.
+![Overwrite pom](overwrite-pom.png)
+Customize `index.html` to your liking.
