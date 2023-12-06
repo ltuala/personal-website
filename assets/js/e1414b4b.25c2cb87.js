@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_try_website=self.webpackChunkdocusaurus_try_website||[]).push([[445],{2656:s=>{s.exports=JSON.parse('{"label":"quarkus","permalink":"/l-personal-website/tags/quarkus","allTagsPath":"/l-personal-website/tags","count":1}')}}]);
