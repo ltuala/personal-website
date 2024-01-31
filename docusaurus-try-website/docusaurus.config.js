@@ -86,6 +86,11 @@ const config = {
           },
         ],
       },
+      algolia: {
+        apiKey: '8e7df34b07406ce616f3ec8cf02a8df5',
+        indexName: 'ltuala',
+        appId: '1OJGEBA0T6',
+      },
       footer: {
         style: 'dark',
         links: [
