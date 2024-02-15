@@ -4,8 +4,8 @@
   <ShortName>Lyndon Tuala</ShortName>
   <Description>Search Lyndon Tuala</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://piga-sandbox.github.io/l-personal-website/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://piga-sandbox.github.io/l-personal-website/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://piga-sandbox.github.io/l-personal-website/opensearch.xml" />
-  <moz:SearchForm>https://piga-sandbox.github.io/l-personal-website/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://ltuala.github.io/personal-website/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://ltuala.github.io/personal-website/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://ltuala.github.io/personal-website/opensearch.xml" />
+  <moz:SearchForm>https://ltuala.github.io/personal-website/</moz:SearchForm>
 </OpenSearchDescription>
