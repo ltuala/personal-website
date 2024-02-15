@@ -11,15 +11,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://piga-sandbox.github.io',
+  url: 'https://ltuala.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/l-personal-website',
+  baseUrl: '/personal-website',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'piga-sandbox', // Usually your GitHub org/user name.
-  projectName: 'l-personal-website', // Usually your repo name.
+  organizationName: 'ltuala', // Usually your GitHub org/user name.
+  projectName: 'personal-website', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -78,7 +78,10 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/about', label: 'About', position: 'left'},
+          {to: '/', label: 'Blog', position: 'left'},
+          {to: '/projects', label: 'Project', position: 'left'},
+          {to: '/cv', label: 'CV', position: 'left'},
           {
             href: 'https://github.com/ltuala',
             label: 'GitHub',
