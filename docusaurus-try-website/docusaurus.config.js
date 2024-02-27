@@ -56,6 +56,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: "G-R6FM38XN7Y",
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -94,6 +98,10 @@ const config = {
         indexName: 'ltuala',
         appId: '1OJGEBA0T6',
       },
+      // gtag: {
+      //   trackingID: 'G-R6FM38XN7Y',
+      //   anonymizeIP: true,
+      // },
       footer: {
         style: 'dark',
         links: [
