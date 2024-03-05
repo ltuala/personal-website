@@ -94,9 +94,9 @@ const config = {
         ],
       },
       algolia: {
-        apiKey: '8e7df34b07406ce616f3ec8cf02a8df5',
+        apiKey: 'cca58de7ddd3961cb8ddf2893612b89b',
         indexName: 'ltuala',
-        appId: '1OJGEBA0T6',
+        appId: 'XQHLON3KP2',
       },
       // gtag: {
       //   trackingID: 'G-R6FM38XN7Y',
