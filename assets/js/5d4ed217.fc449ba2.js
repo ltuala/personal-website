@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_try_website=self.webpackChunkdocusaurus_try_website||[]).push([[6826],{7195:s=>{s.exports=JSON.parse('{"label":"postgresql","permalink":"/personal-website/tags/postgresql","allTagsPath":"/personal-website/tags","count":1}')}}]);
