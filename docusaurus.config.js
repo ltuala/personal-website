@@ -46,7 +46,7 @@ const config = {
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         // },
         blog: {
-          routeBasePath: '/',
+          routeBasePath: '/blog',
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -82,10 +82,10 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/about', label: 'About', position: 'left'},
-          {to: '/', label: 'Blog', position: 'left'},
-          {to: '/projects', label: 'Project', position: 'left'},
-          {to: '/cv', label: 'CV', position: 'left'},
+          {to: '/about', label: 'About', position: 'left', activeBasePath: '/about'},
+          {to: '/blog', label: 'Blog', position: 'left', activeBasePath: '/blog'},
+          {to: '/projects', label: 'Project', position: 'left', activeBasePath: '/projects'},
+          {to: '/cv', label: 'CV', position: 'left', activeBasePath: '/cv'},
           {
             href: 'https://github.com/ltuala',
             label: 'GitHub',
