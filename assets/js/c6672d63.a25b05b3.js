@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_try_website=self.webpackChunkdocusaurus_try_website||[]).push([[1684],{8232:s=>{s.exports=JSON.parse('{"label":"jira","permalink":"/personal-website/tags/jira","allTagsPath":"/personal-website/tags","count":1}')}}]);

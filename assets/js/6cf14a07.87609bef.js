@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_try_website=self.webpackChunkdocusaurus_try_website||[]).push([[610],{8043:e=>{e.exports=JSON.parse('{"label":"challenges","permalink":"/personal-website/tags/challenges","allTagsPath":"/personal-website/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_try_website=self.webpackChunkdocusaurus_try_website||[]).push([[1401],{1010:e=>{e.exports=JSON.parse('{"label":"docker","permalink":"/personal-website/blog/tags/docker","allTagsPath":"/personal-website/blog/tags","count":1}')}}]);
