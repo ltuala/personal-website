@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_try_website=self.webpackChunkdocusaurus_try_website||[]).push([[4107],{2005:e=>{e.exports=JSON.parse('{"permalink":"/personal-website/blog/tags/jira","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
