@@ -1,22 +1,20 @@
 import React from 'react';
-import { useBlogPost } from '@docusaurus/theme-common/internal'
-import BlogPostItem from '@theme-original/BlogPostItem';
+import BlogPostItem from '@theme-original/BlogPostItem'; // original component
+import { useBlogPost } from '@docusaurus/plugin-content-blog/client';
 import GiscusComponent from '@site/src/components/GiscusComponent';
 import useIsBrowser from '@docusaurus/useIsBrowser';
 
 export default function BlogPostItemWrapper(props) {
-  const { metadata, isBlogPostPage } = useBlogPost()
+  const { metadata, isBlogPostPage } = useBlogPost();
   const isBrowser = useIsBrowser();
 
-  const { frontMatter, slug, title } = metadata
-  const { enableComments } = frontMatter
+  const { frontMatter } = metadata;
+  const { enableComments } = frontMatter;
 
   return (
     <>
       <BlogPostItem {...props} />
-      {(enableComments && isBlogPostPage) && (
-        <GiscusComponent />
-      )}
+      {(enableComments && isBlogPostPage && isBrowser) && <GiscusComponent />}
     </>
   );
 }
